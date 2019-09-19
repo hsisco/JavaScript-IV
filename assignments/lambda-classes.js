@@ -25,6 +25,33 @@ class Instructor extends Person{
   }
 }
 
+const daenerys = new Instructor({
+  name: 'Daenerys',
+  age: '23',
+  location: 'Dragonstone',
+  specialty: 'conquering',
+  favLanguage: 'Valyrian ',
+  catchPhrase: 'Fire and Blood',
+})
+
+const cersei = new Instructor({
+  name: 'Cersei',
+  age: '27',
+  location: 'Kings Landing',
+  specialty: 'cruelty',
+  favLanguage: '$$$',
+  catchPhrase: 'A Lannister always pays his debts',
+})
+
+const jon = new Instructor({
+  name: 'Jon',
+  age: '23',
+  location: 'Castle Black',
+  specialty: 'looking confused',
+  favLanguage: 'the common tongue',
+  catchPhrase: 'Winter is comin',
+})
+
 class Student extends Person{
   constructor(attributes){
       super(attributes);
