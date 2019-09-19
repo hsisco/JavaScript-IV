@@ -145,3 +145,48 @@ const sam = new ProjectManager({
   gradClassName: 'Jon4king',
   favInstructor: 'Jon'
 })
+
+console.log(daenerys.speak());
+console.log(daenerys.demo());
+console.log(daenerys.grade(ygritte, ygritte.favSubjects[1]));
+
+console.log(cersei.speak());
+console.log(cersei.demo());
+console.log(cersei.grade(jaqen, jaqen.favSubjects[1]));
+
+console.log(jon.speak());
+console.log(jon.demo());
+console.log(jon.grade(hodor, hodor.favSubjects[1]));
+
+console.log(ygritte.speak());
+console.log(ygritte.listSubjects());
+console.log(ygritte.PRAssignment());
+console.log(ygritte.sprintChallenge());
+
+console.log(hodor.speak());
+console.log(hodor.listSubjects());
+console.log(hodor.PRAssignment());
+console.log(hodor.sprintChallenge());
+
+console.log(jaqen.speak());
+console.log(jaqen.listSubjects());
+console.log(jaqen.PRAssignment());
+console.log(jaqen.sprintChallenge());
+
+console.log(tyrion.speak());
+console.log(tyrion.demo());
+console.log(tyrion.grade(jaqen, jaqen.favSubjects[1]));
+console.log(tyrion.standUp(tyrion, 'dragons'));
+console.log(tyrion.debugsCode(tyrion, hodor, hodor.favSubjects[0]));
+
+console.log(missandei.speak());
+console.log(missandei.demo());
+console.log(missandei.grade(hodor, hodor.favSubjects[1]));
+console.log(missandei.standUp(missandei, 'unsullied'));
+console.log(missandei.debugsCode(missandei, ygritte, ygritte.favSubjects[0]));
+
+console.log(sam.speak());
+console.log(sam.demo());
+console.log(sam.grade(ygritte, ygritte.favSubjects[1]));
+console.log(sam.standUp(sam, 'maesters'));
+console.log(sam.debugsCode(sam, jaqen, jaqen.favSubjects[0]));
