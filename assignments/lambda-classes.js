@@ -107,7 +107,7 @@ class ProjectManager extends Instructor{
       this.favInstructor = attributes.favInstructor
   }
   standUp(name, channel){
-      return `${this.name} announces to ${channel}, "@${channel}, standy times!​​​​​"`;
+      return `${this.name} announces to ${channel}, "@channel, standy times!​​​​​"`;
   }
   debugsCode(name, student, subject){
       return `${this.name} debugs ${student.name}'s code on ${subject}.`;
@@ -176,17 +176,17 @@ console.log(jaqen.sprintChallenge());
 console.log(tyrion.speak());
 console.log(tyrion.demo());
 console.log(tyrion.grade(jaqen, jaqen.favSubjects[1]));
-console.log(tyrion.standUp(tyrion, 'dragons'));
+console.log(tyrion.standUp(tyrion, 'the dragons'));
 console.log(tyrion.debugsCode(tyrion, hodor, hodor.favSubjects[0]));
 
 console.log(missandei.speak());
 console.log(missandei.demo());
 console.log(missandei.grade(hodor, hodor.favSubjects[1]));
-console.log(missandei.standUp(missandei, 'unsullied'));
+console.log(missandei.standUp(missandei, 'the Unsullied'));
 console.log(missandei.debugsCode(missandei, ygritte, ygritte.favSubjects[0]));
 
 console.log(sam.speak());
 console.log(sam.demo());
 console.log(sam.grade(ygritte, ygritte.favSubjects[1]));
-console.log(sam.standUp(sam, 'maesters'));
+console.log(sam.standUp(sam, 'the Maesters'));
 console.log(sam.debugsCode(sam, jaqen, jaqen.favSubjects[0]));
