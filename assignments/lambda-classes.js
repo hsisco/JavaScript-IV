@@ -70,6 +70,36 @@ class Student extends Person{
   }
 }
 
+const ygritte = new Student({
+  name: 'Ygritte',
+  age: '23',
+  location: 'North of the Wall',
+  catchPhrase: 'You know nothin, Jon Snow',
+  previousBackground: 'Free Folk',
+  className: 'WldlgsSoWal',
+  favSubjects: ['Jon', 'tra-la-la-lally day', 'archery'],
+})
+
+const hodor = new Student({
+  name: 'Hodor',
+  age: 'Hodor',
+  location: 'Hodor',
+  catchPhrase: 'Hodor!',
+  previousBackground: 'Hodor',
+  className: 'Hodor',
+  favSubjects: ['Hodor', 'Hodor', 'Hodor'],
+})
+
+const jaqen = new Student({
+  name: 'Jaqen Hghar',
+  age: '27',
+  location: 'Braavos',
+  catchPhrase: 'valar morghulis',
+  previousBackground: 'a man',
+  className: 'Faceless Men',
+  favSubjects: ['fighting', 'annoying Arya', 'changing faces'],
+})
+
 class ProjectManager extends Instructor{
   constructor(attributes){
       super(attributes);
