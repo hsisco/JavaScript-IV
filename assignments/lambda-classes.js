@@ -113,3 +113,35 @@ class ProjectManager extends Instructor{
       return `${this.name} debugs ${student.name}'s code on ${subject}.`;
   }
 }
+const tyrion = new ProjectManager({
+  name: 'Tyrion',
+  age: '25',
+  location: 'Dragonstone',
+  specialty: 'drinking and knowing things',
+  favLanguage: 'anything other than Valyrian',
+  catchPhrase: 'I drink and I know things',
+  gradClassName: 'BreakTheWheel',
+  favInstructor: 'definetly not Cersei, so Daenerys I guess?'
+})
+
+const missandei = new ProjectManager({
+  name: 'Missandei',
+  age: '23',
+  location: 'wherever Daenerys is',
+  specialty: 'languages',
+  favLanguage: 'all of them',
+  catchPhrase: 'You stand in the presence of Daenerys Stormborn of House Targaryen, rightful heir to the Iron Throne, rightful Queen of the Andals and the First Men, Protector of the Seven Kingdoms, the Mother of Dragons, the Khaleesi of the Great Grass Sea, the Unburnt, the Breaker of Chains.',
+  gradClassName: 'BreakTheWheel',
+  favInstructor: 'Daenerys'
+})
+
+const sam = new ProjectManager({
+  name: 'Samwell',
+  age: '23',
+  location: 'wherever Jon Snow is',
+  specialty: 'reading',
+  favLanguage: '',
+  catchPhrase: 'It is a bit nippy',
+  gradClassName: 'Jon4king',
+  favInstructor: 'Jon'
+})
